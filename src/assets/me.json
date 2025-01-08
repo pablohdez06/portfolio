@@ -1,0 +1,13 @@
+{
+    "nombre": "Pablo Hernández Sánchez",
+    "profesion": "Estudiante",
+    "bio": "Estoy estudiando un grado superior de desarrollo deaplicaciones web",
+    "experiencia":[
+        {
+            "nombre": "nombre",
+            "descripcion": "descripcion",
+            "fecha": "fecha"
+        }
+    ],
+    "habilidades": ["Java"]
+}
