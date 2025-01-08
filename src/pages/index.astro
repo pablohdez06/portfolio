@@ -11,4 +11,11 @@ const { default: meData } = await import('../assets/me.json');
 	<h1>{meData.nombre}</h1>
 	<p>{meData.profesion}</p>
 	<p>{meData.bio}</p>
+	{meData.experiencia.map((exp)=>(
+		<p>{exp.nombre}</p>
+		<p>{exp.descripcion}</p>
+		<p>{exp.fecha}</p>
+	))}
+
+	<h2>Habilidades</h2>
 </Layout>
